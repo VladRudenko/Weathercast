@@ -35,10 +35,6 @@ while True:
         get_weather = result.json()
         tz_UA = timezone("Europe/Kiev")
 
-        # for key, value in get_weather.items():
-        #     print(f"{key} >>> {value}")
-        # print("-" * 40)
-
         print("*** " + datetime.now(timezone("Europe/Kiev")).strftime(
             "%y-%m-%d/%H:%M:%S" + " ***"))
 
